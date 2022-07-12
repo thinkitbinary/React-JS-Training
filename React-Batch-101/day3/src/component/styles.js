@@ -1,0 +1,100 @@
+const styles = {
+    box:{
+        display:"flex",
+        alignItems:"center",
+        boxSizing:"border-box",
+        width:"100%",
+    },
+    navbar: {
+        padding:"1rem",
+        height:"5rem",
+        backgroundColor:"#121212",
+        color:"gray",
+        fontSize: "2rem",
+    },
+    hero:{
+        justifyContent:"space-between",
+        gap:"1rem",
+        padding:"5rem",
+        minHeight:"700px",
+    },
+    section_left:{
+        width:"100%",
+    },
+    header_text:{
+        textAlign:"Center",
+        fontSize:"3rem",
+        fontWeight:600,
+        color:"#6C63FF"
+    },
+    section_right:{
+        width:"100%",
+    },
+    about:{
+        padding:"5rem"
+    },
+    about_text_box:{
+        display:"flex",
+        flexDirection:"column",
+        justifyContent:"center",
+        gap:'2rem'
+    },
+    about_header:{
+        textAlign:"center",
+        fontSize:"2rem",
+        fontWeight:600,
+        color:"#6C63FF"
+    },
+    about_desc:{
+        textAlign:"center",
+        fontSize:"1.5rem",
+        fontWeight:600,
+        color:"gray"
+    },
+    contact:{
+        flexDirection:"column",
+        justifyContent:"center",
+        padding:"5rem",
+        gap:"3rem"
+    },
+    contact_header:{
+        textAlign:"center",
+        fontSize:"2rem",
+        fontWeight:600,
+        color:"#6C63FF"
+    },
+    contact_form:{
+        display:"flex",
+        boxSizing:"border-box",
+        border:'1px solid gray',
+        borderRadius:"1rem",
+        height:'3rem',
+        minWidth:"50%",
+    },
+    input:{
+        width:"80%",
+        borderRadius:"1rem 0rem 0rem 1rem",
+        border:"none",
+        boxSizing:"border-box",
+        paddingLeft:"3rem",
+    },
+    button:{
+        width:"20%",
+        borderRadius:"0rem 1rem 1rem 0rem",
+        border:'none',
+        cursor:'pointer',
+        backgroundColor:"gray",
+        fontSize:"1.25rem"
+    },
+    footer:{
+        justifyContent:"center",
+        padding:"2rem",
+        height:"2rem",
+        backgroundColor:"#121212",
+        color:"gray",
+        fontSize: "1rem",
+        textAlign:"center"
+    }
+}
+
+export { styles }
